@@ -10,9 +10,9 @@ require_once 'Strings.php';
 function isPalindrome($text){
     $reverseString = reverse($text);
     if($text === $reverseString){
-        $result = true;
+        $result = 'true';
     } else {
-        $result = false;
+        $result = 'false';
     };
 
     return $result;
