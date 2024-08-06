@@ -13,3 +13,6 @@ if (ctype_upper(mb_substr($char, 1, 1, 'UTF-8'))) {
 } else {
     echo mb_substr($char, 1, 1, 'UTF-8') . " - это не заглавная буква";
 }
+
+?>
+<? echo $char;
